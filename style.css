@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Garamond", Times, serif;
+}
+.ui {
+  background-image: linear-gradient(to right, #ff1500, #ff6565);
+  border-radius: 0 0 100px 100px;
+  height: 60vh;
+  transition: 1.5s;
+}
+#random {
+  border: 1px solid white;
+  background-color: white;
+  font-size: 20px;
+  color: #ff1500;
+  font-weight: bold;
+  transition: 0.3s;
+}
+#random:hover {
+  color: white;
+  border: 1px solid white;
+  background-color: #ff0000;
+  transition: 0.3s;
+}
+
+.newUi {
+  background-image: linear-gradient(to right, #ff1500, #ff6565);
+  height: 100vh;
+  border-radius: 0 0 0 0;
+  text-align: center;
+  transition: 1.5s;
+}
+.ui .main {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.spinner {
+  margin-top: 150px;
+}
+.search {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 50%;
+}
+.mealInfo {
+  margin: auto;
+}
+.meal-Instructions {
+  width: 300px;
+}
+.meal-img {
+  width: 250px;
+  border-radius: 24px;
+}
+.meal-area,
+.meal-category {
+  font-size: 20px;
+}
+.text-meal-Ins {
+  margin-top: 50px;
+  text-align: justify;
+}
+#category .categoryBtn {
+  border-bottom: 1px solid white;
+  color: white;
+  transition: 0.3s;
+}
+#category .categoryBtn:hover {
+  border: 1px solid white;
+  color: white;
+  transition: 0.5s;
+}
+.categoriesImg {
+  width: 60px;
+  border-radius: 10px;
+}
+.img-url {
+  width: 100px;
+  border-radius: 10px;
+}
